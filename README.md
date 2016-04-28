@@ -1,6 +1,15 @@
 # http-observable
 A simple `RxJs` Observable binding for Node.js `http` module. This observable is useful to handle `streaming` http response.
 
+This module is a work in progress.
+TODO list:
+- `status()` - To find out the status of the http/https calls
+- `headers()` - To get the observable result on response headers
+- `body()` - Body parse and read response Body
+- Methods `get` and `post` and generic request
+- SSL validations
+- Socket and connect timeout implementations 
+
 ## Install
 
 ```sh
