@@ -1,6 +1,6 @@
 {
   "name": "http-observable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node.js http module binding using the Reactive Extensions for JavaScript (RxJS) Observable to handle stream http response",
   "main": "lib/index.js",
   "scripts": {
