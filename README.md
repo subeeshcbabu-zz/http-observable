@@ -3,9 +3,8 @@ A simple `RxJs` Observable binding for Node.js `http` module. This observable is
 
 ## Install
 
-```
+```sh
 npm i http-observable
-
 ```
 
 ## Usage
