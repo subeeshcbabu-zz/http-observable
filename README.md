@@ -8,7 +8,7 @@ TODO list:
 - `body()` - Body parse and read response Body
 - Methods `get` and `post` and generic request
 - SSL validations
-- Socket and connect timeout implementations 
+- Socket and connect timeout implementations
 
 ## Install
 
@@ -31,8 +31,9 @@ npm i http-observable
         path: '/stream'
     };
 
-    new HttpObservable(options)
-        .subscribe(
+    var response = HttpObservable(options).request();
+    
+        response.body().subscribe(
               function onNext(chunk) {
                   //Write the data chunk to response stream (Or process the data)
                   res.write(chunk);
