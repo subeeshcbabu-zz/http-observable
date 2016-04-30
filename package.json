@@ -4,6 +4,7 @@
   "description": "Node.js http module binding using the Reactive Extensions for JavaScript (RxJS) Observable to handle stream http response",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "eslint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/subeeshcbabu/http-observable#readme",
   "dependencies": {
+    "eslint": "^2.9.0",
     "rx": "^4.1.0"
   }
 }
