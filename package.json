@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "lint": "eslint lib",
-    "test": "mocha test"
+    "test": "mocha test --reporter tap"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "rx": "^4.1.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^2.9.0",
     "mocha": "^2.4.5"
   }
